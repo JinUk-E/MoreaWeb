@@ -23,5 +23,14 @@
 hs_err_pid*
 replay_pid*
 
-# Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
-.kotlin/
+
+# gradle files
+.gradle
+
+# idea files
+.idea
+
+# build files
+build/*
+src/main/resources/json/assetlinks.json
+src/main/resources/moraesWebKeystore.p12
